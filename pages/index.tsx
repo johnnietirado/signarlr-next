@@ -8,7 +8,7 @@ class Index extends React.Component {
 
         console.log('creating connecion');
         try {
-            // Comment out this out to get error
+            // Comment out this out to NOT get error
             new signalR.HubConnectionBuilder()
                 .withUrl(`https://staging-api.parkner.pe/hub`)
                 .build();
