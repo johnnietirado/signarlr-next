@@ -1,0 +1,23 @@
+{
+    "name": "portal",
+    "version": 2,
+    "alias": [
+        "portal.parkner.pe"
+    ],
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/next"
+        }
+    ],
+    "env": {
+        "API_ENV": "staging",
+        "APP_URL": "https://test-admin.parkner.pe"
+    },
+    "build": {
+        "env": {
+            "API_ENV": "staging",
+            "APP_URL": "https://test-admin.parkner.pe"
+        }
+    }
+}
